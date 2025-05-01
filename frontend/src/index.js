@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './FM';
+import App from './App';
 
 // Render the App component inside the root element
-ReactDOM.render(<FM />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
