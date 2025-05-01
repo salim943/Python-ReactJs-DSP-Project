@@ -8,7 +8,7 @@ const AM_demodulation = () => {
   const [carrierFrequency, setCarrierFrequency] = useState(1);
   const [A, setA] = useState(1);
   const [B, setB] = useState(1);
-  // const [result, setResult] = useState(null);
+  const [result, setResult] = useState(null);
    const [sinWaveData0, setSinWaveData0] = useState(null);
       const [sinWaveDatac, setSinWaveDatac] = useState(null);
   const [sinWaveData, setSinWaveData] = useState(null);
