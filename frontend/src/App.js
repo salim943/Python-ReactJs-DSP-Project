@@ -18,7 +18,7 @@ function App() {
           <Sidebar />
 
           <Routes>
-            <Route path="/" element={<Circuit />} />
+            <Route path="/AM" element={<Circuit />} />
             <Route path="/AM_demodulation" element={<AM_demodulation />} />
             <Route path="/FM" element={<FM />} />
             <Route path="/PM" element={<PM />} />
