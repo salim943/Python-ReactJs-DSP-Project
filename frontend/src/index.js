@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Circuit';
+import App from './FM';
 
 // Render the App component inside the root element
-ReactDOM.render(<Circuit />, document.getElementById('root'));
+ReactDOM.render(<FM />, document.getElementById('root'));
 
